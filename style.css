@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+body{
+    background-image: url(\(small\ scale\)\ Rock\ Paper\ Scissors\ -\ dusty\ blue\ -\ fun\ games\ -\ LAD21.jpg);
+}
+
+  h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+  }
+  
+  .choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+  }
+  
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.80rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    background-color: #081b31;
+    width: 325px;
+    height: 56px;
+    margin-top: 81px;
+  margin-right: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px; 
+    color: green;
+    border-radius: 25px;
+  }
+  
+  /* #user-score,
+  #computer-score {
+    font-size: 4rem;
+  } */
+  
+  .msg-container {
+    margin-top: 5rem;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+#user-score{
+    color: green;
+    font-size: 1.80rem;
+    font-weight: bolder;
+}
+
+#you{
+    font-weight: bolder;
+}
+
+#computer-score{
+    color: red;
+    font-size: 1.80rem;
+    font-weight: bolder;
+
+}
+
+#com{
+    color: red;
+    font-weight: bolder;
+}
+
+.new{
+    height: 350px;
+    width: 999px;
+    border-radius: 27px;
+    background-color: rgba(255, 255, 255, 0.205);
+   margin-left: 150px;
+   backdrop-filter: blur(10px);
+    
+}
+
+.choice{
+    margin-top: 29px;
+}
